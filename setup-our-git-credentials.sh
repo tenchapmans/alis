@@ -55,9 +55,9 @@ echo
 echo "Select the correct desktop"
 echo
 echo "0.  Do nothing"
-echo "1.  Erik"
-echo "2.  Raniel"
-echo "3.  Steve"
+echo "1.  Alan - Home"
+echo "2.  Alan - ASU"
+echo "3.  Alan - GitLab"
 echo "Type the number..."
 
 read CHOICE
@@ -75,11 +75,11 @@ case $CHOICE in
     1 )
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "arcolinuxz"
-			git config --global user.email "arcolinuxinfo@gmail.com"
-			sudo git config --system core.editor nano
-			#git config --global credential.helper cache
-			#git config --global credential.helper 'cache --timeout=32000'
+			git config --global user.name "Alan Chapman"
+			git config --global user.email "brochapman@gmail.com"
+			sudo git config --system core.editor codium
+			git config --global credential.helper cache
+			git config --global credential.helper 'cache --timeout=32000'
       git remote set-url origin git@github.com-arc:$githubdir/$project
       echo
       echo "Everything set"
@@ -87,17 +87,17 @@ case $CHOICE in
     2 )
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "Raniel Laguna"
-			git config --global user.email "avraniel@gmail.com"
-			sudo git config --system core.editor nano
+			git config --global user.name "Alan Chapman"
+			git config --global user.email "alan.chapman@asu.edu"
+			sudo git config --system core.editor codium
 			git config --global credential.helper cache
 			git config --global credential.helper 'cache --timeout=32000'
       ;;
     3 )
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "Steve Younger"
-			git config --global user.email "coritanie@gmail.com"
+			git config --global user.name "Alan Chapman"
+			git config --global user.email "acchapm1@asu.edu"
 			sudo git config --system core.editor nano
 			git config --global credential.helper cache
 			git config --global credential.helper 'cache --timeout=32000'
