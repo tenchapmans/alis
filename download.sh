@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-set -eu
+set -us
 
 # Arch Linux Install Script (alis) installs unattended, automated
 # and customized Arch Linux system.
 # Copyright (C) 2022 picodotdev
 
-GITHUB_USER="picodotdev"
-BRANCH="master"
+GITHUB_USER="tenchapmans"
+BRANCH="main"
 
 while getopts "u:" arg; do
   case ${arg} in
