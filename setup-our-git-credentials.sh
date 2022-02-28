@@ -55,7 +55,7 @@ echo
 echo "Select the correct desktop"
 echo
 echo "0.  Do nothing"
-echo "1.  Alan - Home"
+echo "1.  Alan - Personal - ONLY USE THIS ONE"
 echo "2.  Alan - ASU"
 echo "3.  Alan - GitLab"
 echo "Type the number..."
